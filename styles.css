@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Шапка сайта (тёмный фон, flex-строка, логотип слева, навигация справа) */
+.todo {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Логотип / название компании в шапке */
+.todo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Навигационное меню — список ссылок в шапке (горизонтальный flex) */
+.todo {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Отдельная ссылка в навигации */
+.todo {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Секция-герой (большой баннер с призывом к действию) */
+.todo {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #444;
+    color: white;
+}
+
+/* Заголовок в секции-герое */
+.todo {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Подзаголовок / текст в секции-герое */
+.todo {
+    font-size: 20px;
+}
+
+/* Секция "О нас" */
+.todo {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+/* Фотография команды в секции "О нас" */
+.todo {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Секция "Услуги" (светло-серый фон) */
+.todo {
+    background-color: #e3e3e3;
+    padding: 40px;
+}
+
+/* Список услуг (горизонтальный flex без маркеров) */
+.todo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+/* Отдельный элемент услуги (карточка с тенью) */
+.todo {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Секция "Портфолио" */
+.todo {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Сетка проектов в портфолио (горизонтальный flex) */
+.todo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Изображение внутри карточки портфолио */
+.todo {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Секция "Отзывы" */
+.todo {
+    background-color: #f1f1f1;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Текст отзыва (курсив) */
+.todo {
+    font-style: italic;
+}
+
+/* Имя автора отзыва (жирный) */
+.todo {
+    font-weight: bold;
+}
+
+/* Подвал сайта */
+.todo {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Ссылки в блоке контактов */
+.todo {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+/* Форма обратной связи (вертикальный flex) */
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Текстовые поля формы (input и textarea) */
+.todo {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Базовая кнопка */
+.todo {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Основная кнопка (оранжевая, для призыва к действию) */
+.todo {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Кнопка отправки формы */
+.todo {
+    background-color: #ff9800;
+    color: white;
+}
